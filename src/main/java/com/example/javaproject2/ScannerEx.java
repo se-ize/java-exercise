@@ -13,5 +13,7 @@ public class ScannerEx {
             answer += sc.nextInt();
         }
         System.out.println(answer);
+
     }
+
 }
