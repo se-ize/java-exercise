@@ -9,5 +9,7 @@ public class Printf {
     public static void main(String[] args){
         Printf printf = new Printf();
         printf.Print();
+
+        System.out.printf("%d-%02d-%02d",2023, 4, 20);
     }
 }
