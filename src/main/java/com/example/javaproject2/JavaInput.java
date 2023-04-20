@@ -15,7 +15,8 @@ public class JavaInput {
 //        int asciiCode2 = is.read();
 
         for(int i=0; i<2; i++){
-            System.out.println(is.read());
+            int asciiCode = is.read();
+            System.out.println(asciiCode);
         }
     }
 }
