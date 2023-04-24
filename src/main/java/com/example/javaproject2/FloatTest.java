@@ -8,7 +8,6 @@ public class FloatTest {
         float f10 = 1.23e10f;
         float f11 = 3.141592653589793f;
         double d10 = 1.23e10;
-
         System.out.println("f7 = " + f7);
         System.out.println("f8 = " + f8);
         System.out.println("f9 = " + f9);
