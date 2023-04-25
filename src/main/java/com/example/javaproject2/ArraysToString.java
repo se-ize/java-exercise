@@ -8,6 +8,10 @@ public class ArraysToString {
         iArr[0] = 2;
         iArr[1] = 4;
         iArr[2] = 7;
+
+        String[] sArr = new String[3];
+
         System.out.println(Arrays.toString(iArr));
+        System.out.println(Arrays.toString(sArr));
      }
 }
