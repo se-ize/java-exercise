@@ -4,6 +4,8 @@ public class User {
     String name;
     String phoneNumber;
     int age;
+    Boolean isBalanceSufficient = true;
+    Boolean isPaymentSuccess = false;
 
     boolean isAdult() {
         return age >= 18;
