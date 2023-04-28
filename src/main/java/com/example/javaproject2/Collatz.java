@@ -8,15 +8,14 @@ public class Collatz {
         int result = solution(num);
         System.out.println(result);
     }
-    public static int solution(int num) {
-        long n = num;
+    public static int solution(long num) {
         int count = 0;
-        while(n != 1) {
-            if(n % 2 == 0){
-                n /= 2;
+        while(num != 1) {
+            if(num % 2 == 0){
+                num /= 2;
                 count++;
             } else {
-                n = n*3 + 1;
+                num = num * 3 + 1;
                 count++;
             }
             if (count >= 500){
