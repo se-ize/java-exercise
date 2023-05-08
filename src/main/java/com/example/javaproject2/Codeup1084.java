@@ -16,12 +16,12 @@ public class Codeup1084 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         for(int i=0; i<r; i++){
             for(int j=0; j<g; j++){
-                String line = "";
+                StringBuilder line = new StringBuilder();
                 for(int k=0; k<b; k++){
-                    line += i + " " + j + " " + k + "\n";
+                    line.append(i).append(" ").append(j).append(" ").append(k).append("\n");
                     count++;
                 }
-                bw.write(line);
+                bw.write(line.toString());
                 bw.flush();
             }
         }

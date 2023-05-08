@@ -27,6 +27,5 @@ public class TwoDimArrFillRow {
 
         System.out.println(Arrays.toString(arr2));
 
-        //
     }
 }
