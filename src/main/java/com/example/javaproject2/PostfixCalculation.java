@@ -34,6 +34,7 @@ public class PostfixCalculation {
                         break;
                     case '*':
                         digitStack.push(numLeft * numRight);
+                        break;
                     case '/':
                         digitStack.push(numLeft / numRight);
                         break;
