@@ -1,12 +1,12 @@
 package com.example.javaproject2;
 
-public class Stack {
+public class MyStack {
     // 스택에 실제 데이터가 저장되는 곳
     private final int[] arr = new int[16];
     // 현재 스택의 최고점을 파악하기 위한 top
     private int top = -1;
 
-    public Stack() {
+    public MyStack() {
     }
 
     // push(): 데이터를 Stack의 제일 위에 넣는 메소드
@@ -51,7 +51,7 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack intStack = new Stack();
+        MyStack intStack = new MyStack();
         intStack.push(1);
         intStack.push(2);
         intStack.push(3);
